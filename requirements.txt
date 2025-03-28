@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+plotly
+matplotlib
+seaborn
+requests  # If fetching data from APIs
+nltk      # For NLP tasks
+spacy     # For NLP tasks
+transformers # For LLM/Summarization/Q&A
+torch        # Dependency for some transformers models
+tensorflow   # Dependency for some transformers models
+langchain    # For building LLM applications
+python-dotenv # For managing API keys
+openai       # If using OpenAI API
