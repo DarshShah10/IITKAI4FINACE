@@ -453,13 +453,13 @@ except (FileNotFoundError, KeyError):
         api_key = st.sidebar.text_input("Enter OpenRouter API Key:", type="password", key="api_key_input", help="Get your key from https://openrouter.ai/keys")
 # Model Selection
 available_models = [
-    "google/gemini-2.5-pro-exp-03-25:free",
+    "google/gemini-2.0-flash-exp:free",
     "mistralai/mistral-7b-instruct:free",
     "openai/gpt-3.5-turbo",
     "anthropic/claude-3-haiku",
     "meta-llama/llama-3-8b-instruct",
 ]
-default_model_name = "google/gemini-2.5-pro-exp-03-25:free"
+default_model_name = "google/gemini-2.0-flash-exp:free"
 try:
     default_index = available_models.index(default_model_name)
 except ValueError:
